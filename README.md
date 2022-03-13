@@ -1,6 +1,6 @@
 HTML, CSS, JavaScript and Bootstrap 5 Portfolio Website
 =======
-![Peek 2022-03-13 11-06](https://360.articulate.com/review/content/244eb60b-a1a5-40df-a93b-83df40231ee6/review)
+![Peek 2022-03-13 11-06](https://github.com/Buhle-T0412/portfolio_website_buhle-twetwa/blob/master/ezgif.com-gif-maker.gif)
 
 # Tools used #
 * HTML, CSS and JavaScript
