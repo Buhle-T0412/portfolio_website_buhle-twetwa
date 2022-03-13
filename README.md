@@ -1,6 +1,6 @@
 HTML, CSS, JavaScript and Bootstrap 5 Portfolio Website
 =======
-![Peek 2022-01-24 11-06](https://user-images.githubusercontent.com/11813341/150726892-d47d1860-b157-4453-aab0-860b1328b25c.gif)
+![Peek 2022-03-13 11-06](https://360.articulate.com/review/content/244eb60b-a1a5-40df-a93b-83df40231ee6/review)
 
 # Tools used #
 * HTML, CSS and JavaScript
@@ -8,5 +8,5 @@ HTML, CSS, JavaScript and Bootstrap 5 Portfolio Website
 * [Font Awesome 5](https://fontawesome.com/)
 * [google map](https://www.embed-map.com/)
 
-This is the [live demo](https://brad-portfolio.netlify.app/) of the project . 
+
 
