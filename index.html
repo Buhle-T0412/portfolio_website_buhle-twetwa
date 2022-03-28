@@ -10,6 +10,8 @@
   
   <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <!-- font awesome -->
   <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
@@ -17,7 +19,7 @@
 <header>
   <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
     <div class="container">
-        <a class="navbar-brand" href="#">Buhle's Portfolio</a>
+        <a class="navbar-brand" href="#">BUHLE TWETWA</a>
         
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -50,9 +52,9 @@
 <body>
     <section class="hero">
         <div class="hero-inner">
-            <h1>My awesome website</h1>
-            <h2>Look at this website and bask in its amazing glory!</h2>
-            <a href="https://example.com/" class="btn">Go ahead...</a>
+            <h1>Hi, I'm Buhle</h1>
+            <h3>Welcome to my Profile</h3>
+          <!--  <a href="https://example.com/" class="btn">Go ahead...</a>-->
         </div>
     </section>
   <!-- main banner -->
@@ -75,23 +77,17 @@
           </div>
 
           <div class="col-lg-8">
-              <p> I am a Software Developer and Tester currently based in East London, South Africa. My passion within the industry lies in low-code development and automation.
+              <p> I am a Software Developer and Tester currently based in East London, South Africa. 
                   
               </p>
               <div class="row mt-3">
                   <div class="col-md-6">
-                      <ul>
-                          <li>Name: Buhle Twetwa</li>
-                          <!--<li>Age: 27</li>-->
-                          <li>Occupation: Software Developer and Tester</li>
-
-                      </ul>
+                     <p>.</p>
                   </div>
                   
               </div>
               <div class="row mt-3">
-                  <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                  <p> .
                   </p>
               </div>
           </div>
@@ -106,9 +102,9 @@
           <div class="col-lg-4 mt-4">
               <div class="card servicesText">
                   <div class="card-body">
-                    <i class='fas servicesIcon fa-phone-laptop'></i>
-                      <h4 class="card-title mt-3">Microsoft Power Platform Development</h4>
-                      <p class="card-text mt-3">I am a certified Microsoft Professional with experience in developing apps using canvas apps, power automate, power BI.
+                    <i class="fas servicesIcon fa-laptop-code"></i>
+                      <h4 class="card-title mt-3">Microsoft Power Automate</h4>
+                      <p class="card-text mt-3">I create automated workflows, increasing user productivity and effeciency.
                       </p>
                   </div>
               </div>  
@@ -117,11 +113,8 @@
               <div class="card servicesText">
                   <div class="card-body">
                     <i class='fas servicesIcon fa-wrench'></i>
-                      <h4 class="card-title mt-3">Software Testing</h4>
-                      <p class="card-text mt-3">I have experience in both manual and automation testing.<br>
-                        <ul>
-                            <li>Analyzed the business requirement, create test strategy, generate the test plane and test case</li>
-                        </ul>
+                      <h4 class="card-title mt-3">Microsoft Power BI</h4>
+                      <p class="card-text mt-3">.
                       </p>
                   </div>
               </div>  
@@ -132,7 +125,8 @@
                   <div class="card-body">
                       <i class='far servicesIcon fa-check-circle'></i>
                       <h4 class="card-title mt-3">Sharepoint Online</h4>
-                      <p class="card-text mt-3">Implementation of a collaboration workspace for small and medium-sized businesses (SMEs) and government departments.
+                      <p class="card-text mt-3">
+                          I configure workflows and document management using out-of-the-box functionality for SharePoint so that teams can collaborate easily from anywhere.
                       </p>
                   </div>
               </div>  
@@ -144,9 +138,8 @@
               <div class="card servicesText">
                   <div class="card-body">
                       <i class='fas servicesIcon fa-search'></i>
-                      <h4 class="card-title mt-3">SEO</h4>
-                      <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
-                          Some quick example text to build on the card title and make up the bulk of the card's content.
+                      <h4 class="card-title mt-3">Software Testing</h4>
+                      <p class="card-text mt-3">I have experience in both manual and automation testing.
                       </p>
                   </div>
               </div>  
@@ -191,16 +184,17 @@
 
             <div class="col-lg-6">
                 <!-- form fields -->
-                <form>
-                    <input type="text" class="form-control form-control-lg" placeholder="Name">
-                    <input type="email" class="form-control mt-3" placeholder="Email">
-                    <input type="text" class="form-control mt-3" placeholder="Subject">
+                <form onsubmit="sendContact(); reset;  false;">
+                    <input type="text" id = "fname" class="form-control form-control-lg" placeholder="Name">
+                    <input type="email" id = "email" class="form-control mt-3" placeholder="Email">
+                    <input type="text" id = "subject" class="form-control mt-3" placeholder="Subject">
                     <div class="mb-3 mt-3">
                         <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Message"></textarea>
                     </div>
+                    <button class="button" type="submit" onclick="sendContact();" >Contact Me</button>
                 </form>
                <!-- <button type="button" class="btn btn-success mt-3">Contact Me</button>-->
-                <input class="button" type="submit" value="Contact Me">
+                
             </div>
 
         </div>
@@ -210,6 +204,23 @@
 
     <!-- load javascript after loading all html content -->
     <script src="script/script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendContact(){
+
+            Email.send({
+                    Host : "smtp.gmail.com",
+                    Username : "twetwabuhle@gmail.com",
+                    Password : "twetwabuhle@2021",
+                    To : 'twetwabuhle@icloud.com',
+                    From : "you@isp.com",
+                    Subject : "This is the subject",
+                    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+        }
+    </script>
 </body>
 
 <!-- footer section-->
@@ -221,7 +232,7 @@
                <li><a href="https://www.linkedin.com/in/buhle-twetwa-28a467166" target="_blank"><i class="fab fa-linkedin"></i></a></li>
                <li><a href="https://www.twitter.com/king_bontle" target="_blank"><i class="fab fa-twitter"></i></a></li>
                <li><a href="https://www.instagram.com/kingbontle" target="_blank"><i class="fab fa-instagram"></i></a></li>
-               <li><a href="https://github.com/Buhle-T0412/-portfolio_website" target="_blank"><i class="fab fa-github"></i></a></li>
+               <li><a href="https://github.com/Buhle-T0412/portfolio_website_buhle-twetwa" target="_blank"><i class="fab fa-github"></i></a></li>
                <li><a href="mailto:twetwabuhle@gmail.com" target="_blank"><i class="fab fa-envelope"></i></a></li>
            </ul>
             

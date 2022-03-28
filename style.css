@@ -2,9 +2,11 @@ body, html {
     height: 100%;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    /*background-color: #ebddcc;*/
   }
+  
   .button{
-    background-color: #7B3F00;
+    background-color: #080808;
     color: #ebddcc; 
     border: 2px solid;
     border-radius:10px; 
@@ -39,7 +41,9 @@ body, html {
     color: #ebddcc;
 
     /* Background styles */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/6331032/pexels-photo-6331032.jpeg?cs=srgb&dl=pexels-anete-lusina-6331032.jpg&fm=jpg);
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/6751289/pexels-photo-6751289.jpeg?cs=srgb&dl=pexels-anna-tarazevich-6751289.jpg&fm=jpg);*/
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1510673398445-94f476ef2cbc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -48,7 +52,7 @@ body, html {
 .hero h1 {
   /* Text styles */
   font-size: 5em;
-  
+  font-family: "Mongolian Baliti", serif;
 }
 .hero .btn {
   /* Positioning and sizing */
@@ -110,7 +114,7 @@ font-size: 1.5em;
 /* The navigation bar */
 .navbar {
   overflow: hidden;
-  background-color: #7B3F00;
+  background-color: #080808;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -158,14 +162,14 @@ font-size: 1.5em;
   text-align: center;
 }
 .card:hover .servicesIcon {
-  color: #ebddcc;
+  color: #6f4e37;
 }
 .servicesText:hover {
-  border: 1px solid #ebddcc;
+  border: 1px solid #6f4e37;
 }
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-  background-color: #7B3F00;
+  background-color: #080808;
 }
 
 /* social media icons styling */
@@ -199,7 +203,7 @@ font-size: 1.5em;
 }
 /* footer styling */
 #footer {
-  background-color: #7B3F00;
+  background-color: #080808;
   text-align: center;
 }
 /* spacing on all sections */
