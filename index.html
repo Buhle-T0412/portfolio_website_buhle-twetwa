@@ -50,23 +50,14 @@
 </header>
 
 <body>
+<!-- main banner -->
     <section class="hero">
         <div class="hero-inner">
             <h1>Hi, I'm Buhle</h1>
             <h3>Welcome to my Profile</h3>
-          <!--  <a href="https://example.com/" class="btn">Go ahead...</a>-->
         </div>
     </section>
-  <!-- main banner -->
- <!-- <div class="banner">
-    <div class="hero-text">
-      <h1>My name is Buhle</h1>
-      <p>And I'm a Software Developer and Tester</p>
-      
-    </div>
-  </div>
--->
-  
+    
 <!-- about section-->
 <section id="about">
   <div class="container mt-4 pt-4">
@@ -184,14 +175,15 @@
 
             <div class="col-lg-6">
                 <!-- form fields -->
-                <form onsubmit="sendContact(); reset;  false;">
-                    <input type="text" id = "fname" class="form-control form-control-lg" placeholder="Name">
-                    <input type="email" id = "email" class="form-control mt-3" placeholder="Email">
-                    <input type="text" id = "subject" class="form-control mt-3" placeholder="Subject">
+                <form action="https://formsubmit.co/2012da3d624e91f664cbf80e424c9994" method="POST">
+                    
+                    <input type="text" id = "fname" name="name" class="form-control form-control-lg" placeholder="Name" required>
+                    <input type="email" id = "email" name="email" class="form-control mt-3" placeholder="Email" required>
+                    <input type="text" id = "subject" name="subject" class="form-control mt-3" placeholder="Subject">
                     <div class="mb-3 mt-3">
-                        <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Message"></textarea>
+                        <textarea class="form-control" rows="5" id="comment" name="message" placeholder="Message" required></textarea>
                     </div>
-                    <button class="button" type="submit" onclick="sendContact();" >Contact Me</button>
+                    <button type="submit"  class="button" >Send</button>
                 </form>
                <!-- <button type="button" class="btn btn-success mt-3">Contact Me</button>-->
                 
@@ -205,22 +197,7 @@
     <!-- load javascript after loading all html content -->
     <script src="script/script.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
-        function sendContact(){
-
-            Email.send({
-                    Host : "smtp.gmail.com",
-                    Username : "twetwabuhle@gmail.com",
-                    Password : "twetwabuhle@2021",
-                    To : 'twetwabuhle@icloud.com',
-                    From : "you@isp.com",
-                    Subject : "This is the subject",
-                    Body : "And this is the body"
-}).then(
-  message => alert(message)
-);
-        }
-    </script>
+    
 </body>
 
 <!-- footer section-->
@@ -233,7 +210,7 @@
                <li><a href="https://www.twitter.com/king_bontle" target="_blank"><i class="fab fa-twitter"></i></a></li>
                <li><a href="https://www.instagram.com/kingbontle" target="_blank"><i class="fab fa-instagram"></i></a></li>
                <li><a href="https://github.com/Buhle-T0412/portfolio_website_buhle-twetwa" target="_blank"><i class="fab fa-github"></i></a></li>
-               <li><a href="mailto:twetwabuhle@gmail.com" target="_blank"><i class="fab fa-envelope"></i></a></li>
+               <li><a href="mailto:twetwabuhle@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a></li>
            </ul>
             
             

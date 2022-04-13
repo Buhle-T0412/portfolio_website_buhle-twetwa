@@ -14,6 +14,9 @@ body, html {
     min-height:30px; 
     min-width: 120px;
   }
+  button[type="submit"]{
+    transition: 0.3s ease background-color;
+  }
   .button:hover{
     background-color: #ebddcc;
     color: #555;
@@ -43,7 +46,7 @@ body, html {
     /* Background styles */
     /*background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/6751289/pexels-photo-6751289.jpeg?cs=srgb&dl=pexels-anna-tarazevich-6751289.jpg&fm=jpg);*/
     
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1510673398445-94f476ef2cbc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://c4.wallpaperflare.com/wallpaper/533/489/290/geometry-cyberspace-lines-digital-art-wallpaper-preview.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -129,21 +132,6 @@ font-size: 1.5em;
     color: #ebddcc;
   }
   
-  .hero-text button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 10px 25px;
-    color: black;
-    background-color: #ddd;
-    text-align: center;
-    cursor: pointer;
-  }
-  
-  .hero-text button:hover {
-    background-color: #555;
-    color: white;
-  }
   /* about section image css */
 .imageAboutPage {
     width: 100%;
@@ -195,12 +183,13 @@ font-size: 1.5em;
   cursor: pointer;
   
 }
-.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-github:hover {
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-github:hover,.fa-envelope:hover, .fa-check-circle:hover {
   color: #555;
 }
-.fab {
+.fab, .fas, .far {
   color: #ebddcc;
 }
+
 /* footer styling */
 #footer {
   background-color: #080808;
