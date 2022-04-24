@@ -13,6 +13,7 @@ body, html {
     padding:15px;
     min-height:30px; 
     min-width: 120px;
+    border-color: #080808;
   }
   button[type="submit"]{
     transition: 0.3s ease background-color;
@@ -134,7 +135,7 @@ font-size: 1.5em;
   
   /* about section image css */
 .imageAboutPage {
-    width: 100%;
+    width: 90%;
 }
 /* services section css */
 .servicesText.card {
@@ -150,10 +151,10 @@ font-size: 1.5em;
   text-align: center;
 }
 .card:hover .servicesIcon {
-  color: #6f4e37;
+  color: #555;
 }
 .servicesText:hover {
-  border: 1px solid #6f4e37;
+  border: 1px solid #555;
 }
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
